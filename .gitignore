@@ -1,0 +1,16 @@
+.venv/
+.vercel/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+instance/
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+public/cv.pdf
+data/mycv/*.jpg

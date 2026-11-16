@@ -1,0 +1,22 @@
+.
+|-- .gitignore
+|-- .python-version
+|-- README.md
+|-- app.py
+|-- build.py
+|-- pyproject.toml
+|-- requirements.txt
+|-- vercel.json
+|-- data/
+|   |-- mycv/
+|   |   `-- (one current CV PDF)
+|   `-- projects.py
+|-- public/
+|   |-- cv.pdf (generated at build time; ignored by Git)
+|   `-- static/
+|       |-- css/
+|       |-- images/
+|       `-- js/
+`-- templates/
+    |-- base.html
+    `-- index.html
